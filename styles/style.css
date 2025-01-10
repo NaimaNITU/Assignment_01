@@ -1,4 +1,4 @@
-.fira-sans-font {
+.firaSansFont {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
@@ -10,24 +10,24 @@
 }
 
 /* Banner section style started */
-.banner_navigation ul {
+.bannerNavigation ul {
     display: flex;
     justify-content: space-between;
     padding: 24px 160px 20px 160px;
 }
 
-.banner_navigation ul li {
+.bannerNavigation ul li {
     list-style: none;
     margin-bottom: 20px;
 }
 
-.banner_navigation .nav_title {
+.bannerNavigation .navTitle {
     font-size: 32px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
 }
 
-.banner_navigation .nav_btn {
+.bannerNavigation .navBtn {
     padding: 15px 30px;
     border: 2px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
@@ -43,35 +43,37 @@
     margin: 0px 160px;
 }
 
-.banner_container {
+.bannerContainer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 64px;
 }
 
-.banner_container .left_banner_column {
+.bannerContainer .leftBannerColumn {
     padding: 117px 0px 117px 60px;
 }
 
-.banner_container .right_banner_column {
+.bannerContainer .rightBannerColumn {
     padding: 80px 60px 80px 0px;
 }
 
-.banner_container .left_banner_column p {
+.bannerContainer .leftBannerColumn p {
     font-size: 24px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.5);
     margin-bottom: 16px;
 }
 
-.banner_container .left_banner_column h1 {
+.bannerContainer .leftBannerColumn h1 {
     font-size: 56px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
     margin-bottom: 24px;
 }
 
-.banner_container .banner_btn {
+.bannerContainer .bannerBtn,
+.recentNewsContainerDescription .bannerBtn {
     background-color: rgba(0, 106, 80, 1);
     padding: 17px 34px;
     border-radius: 8px;
@@ -92,21 +94,21 @@ main {
     margin: 0px 160px;
 }
 
-.the_version_of_future .future_version_title {
+.versionFuture .versionTitle {
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
     margin: 80px 0px 24px 0px;
 }
 
-.the_version_of_future .future_version_details {
+.versionFuture .versionDetails {
     font-size: 16px;
     font-weight: normal;
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 32px;
 }
 
-.future_version_containers {
+.versionContainers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,34 +116,33 @@ main {
 
 }
 
-.future_version_containers .future_version_container {
-
+.versionContainers .versionContainer {
     border-radius: 16px;
     padding: 32px;
 }
 
 
-.future_version_containers img {
+.versionContainers img {
     height: 64px;
     width: 64px;
     margin-bottom: 24px;
 }
 
-.future_version_containers h5 {
+.versionContainers h5 {
     font-size: 20px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: 12px;
 }
 
-.future_version_containers p {
+.versionContainers p {
     font-size: 16px;
     font-weight: normal;
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 24px;
 }
 
-.future_version_containers button {
+.versionContainers button {
     padding: 11px 20px;
     border-radius: 8px;
     border-style: none;
@@ -155,6 +156,63 @@ main {
 
 
 /* Recent news section style started */
-.recent_news {
+.recentNews {
     margin-top: 80px;
+}
+
+.recentNewsTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+
+.recentNewsDescription {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.recentNewsContainer {
+    display: flex;
+    padding: 48px;
+    border-radius: 24px;
+    gap: 32px;
+    /* background: rgb(255, 255, 255); */
+    box-shadow: 1px 1px 30px 20px rgb(245, 241, 241);
+}
+
+.recentNewsContainer .recentNewsImage img {
+    border-radius: 24px;
+}
+
+.recentNewsContainerDescription h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.recentNewsContainerDescription img {
+    margin-bottom: 12px;
+}
+
+.recentNewsContainerDescription h6 {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+
+.recentNewsContainerDescription p {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.recentNewsContainerSecond {
+    flex-direction: row-reverse;
+    margin-top: 24px;
 }
