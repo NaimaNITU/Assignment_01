@@ -216,3 +216,55 @@ main {
     flex-direction: row-reverse;
     margin-top: 24px;
 }
+
+/*  End of Recent news style*/
+
+
+
+
+
+
+/* Start of donate today section style */
+.donate {
+    text-align: center;
+}
+
+.donate .donateTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+
+.donate .donateDescription {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.donateAmount {
+    display: flex;
+    margin: 0px 104px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.donateAmount .amount {
+    padding: 40px;
+    border: 0.5px solid grey;
+    border-radius: 16px;
+    box-shadow: 0.5px 0.5px 30px 20px rgb(245, 241, 241);
+}
+
+.donateAmount .amount h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    /* margin-bottom: 32px; */
+}
+
+.donate input[type=text] {
+    margin: 0px 124px 0px 124px;
+    width: 100%;
+}
