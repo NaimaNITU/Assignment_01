@@ -114,23 +114,12 @@ main {
 
 }
 
-.future_version_containers .future_version_container1 {
-    background-color: rgba(84, 144, 245, 0.2);
+.future_version_containers .future_version_container {
+
     border-radius: 16px;
     padding: 32px;
 }
 
-.future_version_containers .future_version_container2 {
-    background-color: rgba(198, 228, 214, 1);
-    border-radius: 16px;
-    padding: 32px;
-}
-
-.future_version_containers .future_version_container3 {
-    background-color: rgba(247, 235, 207, 1);
-    border-radius: 16px;
-    padding: 32px;
-}
 
 .future_version_containers img {
     height: 64px;
@@ -154,4 +143,18 @@ main {
 
 .future_version_containers button {
     padding: 11px 20px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* The version of future section style ended */
+
+
+
+/* Recent news section style started */
+.recent_news {
+    margin-top: 80px;
 }
