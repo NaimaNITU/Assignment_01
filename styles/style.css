@@ -66,7 +66,7 @@
 }
 
 .bannerContainer .leftBannerColumn h1 {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
     margin-bottom: 24px;
@@ -280,7 +280,7 @@ main {
 .donate input[type=text] {
     font-size: 20px;
     font-weight: normal;
-    color: rgba(14, 14, 14, 0.3);
+    color: rgba(247, 246, 246, 0.394);
     padding: 20px 422px 20px 422px;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -354,25 +354,27 @@ main {
 /* Ended of newsletter section */
 
 
+/* Hover effect style started */
 .bannerNavigation .navBtn:hover,
 .banner .bannerBtn:hover,
 .versionFuture .versionContainers button:hover,
 .recentNewsContainerDescription .bannerBtn:hover,
 .donate button:hover,
-.newsletter button:hover {
-    background-color: rgba(44, 24, 178, 0.959);
+.newsletter button:hover,
+.donateAmount .amount:hover {
+    background-color: rgba(44, 24, 178, 0.959) !important;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 
 
-
+/* Quote section style started */
 #quoteSection {
-    padding: 48px 24px;
+    padding: 0px 25px;
 }
 
 .quote {
-    margin-top: 20px;
+    margin-top: 27px;
 }
 
 .quoteSection {
