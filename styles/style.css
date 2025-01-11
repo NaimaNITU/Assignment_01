@@ -152,6 +152,18 @@ main {
     color: rgba(255, 255, 255, 1);
 }
 
+.versionContainer .versionContainerBtn1 {
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.versionContainer .versionContainerBtn2 {
+    background-color: rgba(9, 161, 92, 1);
+}
+
+.versionContainer .versionContainerBtn3 {
+    background-color: rgba(255, 194, 57, 1);
+}
+
 /* The version of future section style ended */
 
 
@@ -284,6 +296,8 @@ main {
 
 /* newsletter section style started */
 .newsletter {
+    margin-top: 80px;
+    margin-bottom: 80px;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
     padding: 80px 265px;
@@ -293,5 +307,63 @@ main {
 .newsletter .newsletterTitle {
     font-size: 40px;
     font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 16px;
+}
+
+.newsletter .newsletterDescription {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+
+.newsletter .newsletterInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type=text] {
+    font-size: 16px;
+    font-weight: normal;
     color: rgba(14, 14, 14, 0.3);
+    padding: 18px 400px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border-style: none;
+    /* box-shadow: 0.5px 0.5px 30px 20px rgb(245, 241, 241); */
+}
+
+.newsletterInput button {
+    border-radius: 0px 8px 8px 0px;
+    border-style: none;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.newsletter .newsletterPromise {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
+
+/* Ended of newsletter section */
+
+/* .bannerNavigation .navBtn, .banner .bannerBtn, .versionContainer button, 
+.recentNewsContainerDescription .bannerBtn, .donateAmount button, .newsletter button{
+    
+} */
+
+.bannerNavigation .navBtn:hover,
+.banner .bannerBtn:hover,
+.versionFuture .versionContainers button:hover,
+.recentNewsContainerDescription .bannerBtn:hover,
+.donate button:hover,
+.newsletter button:hover {
+    background-color: rgba(44, 24, 178, 0.959);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
