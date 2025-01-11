@@ -73,7 +73,8 @@
 }
 
 .bannerContainer .bannerBtn,
-.recentNewsContainerDescription .bannerBtn {
+.recentNewsContainerDescription .bannerBtn,
+.donate button {
     background-color: rgba(0, 106, 80, 1);
     padding: 17px 34px;
     border-radius: 8px;
@@ -233,6 +234,7 @@ main {
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
+    margin-top: 80px;
     margin-bottom: 24px;
 }
 
@@ -245,7 +247,7 @@ main {
 
 .donateAmount {
     display: flex;
-    margin: 0px 104px;
+    /* margin: 0px 104px; */
     justify-content: center;
     gap: 24px;
 }
@@ -258,13 +260,38 @@ main {
 }
 
 .donateAmount .amount h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
-    /* margin-bottom: 32px; */
 }
 
 .donate input[type=text] {
-    margin: 0px 124px 0px 124px;
-    width: 100%;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 20px 422px 20px 422px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 0;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 30px 20px rgb(245, 241, 241);
+}
+
+/* End of donate today section style */
+
+
+
+
+/* newsletter section style started */
+.newsletter {
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 80px 265px;
+    text-align: center;
+}
+
+.newsletter .newsletterTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.3);
 }
