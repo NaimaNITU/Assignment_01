@@ -7,7 +7,10 @@
 * {
     margin: 0;
     padding: 0;
+
 }
+
+
 
 /* Banner section style started */
 .bannerNavigation ul {
@@ -366,6 +369,10 @@ main {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
+.amount:hover h1,
+.navBtn:hover {
+    color: #ffffff;
+}
 
 
 /* Quote section style started */
