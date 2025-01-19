@@ -413,3 +413,44 @@ main {
     color: rgba(14, 14, 14, 0.6);
     margin-bottom: 4px;
 }
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .versionContainers,
+    .bannerContainer {
+        flex-direction: column;
+    }
+
+    main,
+    .banner {
+        margin: 0px 10px;
+    }
+
+    .donateAmount {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .donateAmount .amount h1 {
+        font-size: 25px;
+    }
+
+    .donate input[type=text] {
+        padding: 20px 140px;
+    }
+
+    .bannerContainer .leftBannerColumn,
+    .bannerContainer .rightBannerColumn {
+        padding: 0px;
+        margin: 0px 10px;
+    }
+
+    .bannerNavigation ul {
+        padding: 0px;
+        margin: 10px;
+    }
+}
